@@ -1,0 +1,37 @@
+﻿<resources>
+    <string name="app_name">Автошкола</string>
+    <string name="enter">Войти</string>
+    <string name="pass">Пароль</string>
+    <string name="email">Логин</string>
+    <string name="welcome">Добро\nпожаловать</string>
+    <string name="forgot_password">где получить пароль?</string>
+    <string-array
+        name="string_array_menu">
+        <item>Обучение</item>
+        <item>Билеты</item>
+        <item>Экзамен</item>
+        <item>Мои ошибки</item>
+        <item>Личный кабинет</item>
+        <item>Рейтинг</item>
+        <item>Видеоматериалы</item>
+        <item>О приложении</item>
+        <item>Помощь</item>
+        <item>Выйти</item>
+    </string-array>
+
+    <string name="training">Обучение</string>
+    <string name="account">Личный кабинет</string>
+    <string name="rating">Рейтинг</string>
+    <string name="about">О приложении</string>
+    <string name="my_errors">Мои ошибки</string>
+    <string name="help">Помощь</string>
+    <string name="exit">Выйти</string>
+    <string name="materials">Материалы</string>
+    <string name="videomaterial">Видеоматериалы</string>
+    <string name="testing">Тестирование</string>
+    <string name="exam">Экзамен</string>
+    <string name="ticket">Билеты</string>
+    <string name="imagee_tap_to_scale">Нажмите на изображение чтобы увеличить</string>
+ <string name="select_or_search">Select or Search</string>
+<string name="close">Отмена</string>
+</resources>

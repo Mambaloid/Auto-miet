@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonProgress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/login_btn"
+        android:text="Прогресс"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/your_position_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ваше место в рейтинге\n43"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <ListView
+        android:id="@+id/ratingList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:listSelector="@android:color/transparent"
+        />
+
+
+</LinearLayout>

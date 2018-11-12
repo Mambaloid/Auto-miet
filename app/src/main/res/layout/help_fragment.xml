@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/bg">
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Укажите проблему, с которой вы столкнулись:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextCommentHelp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/login_input"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:textSize="16sp"
+                android:textColor="@color/text_color"
+                android:gravity="top"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Если хотите, чтобы вам ответили укажите вашу почту:"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editTextEmailHelp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/login_input"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:textSize="16sp"
+                android:textColor="@color/text_color" />
+
+            <Button
+                android:id="@+id/buttonSubmitHelp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/login_btn"
+                android:text="Отправить"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
